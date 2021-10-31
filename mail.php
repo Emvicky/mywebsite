@@ -7,7 +7,7 @@
    $message = $_POST[ 'name'];
 
    $emailheader ="From: ".$name."<" .$email."> \ r \ n";
-   $recipient = "victoriaashionyedue@gmail.com ";
+   $recipient = "r7gloaltechnology@gmail.com ";
 
    mail( $recipient . $subject . $message. $emailheader)
    or  die("Error!");
@@ -44,7 +44,7 @@
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 
     <!-- custom js file link  -->
-    <script src="js/script.js"></script>
+    <script src="js/index.js"></script>
 
 </body>
 
